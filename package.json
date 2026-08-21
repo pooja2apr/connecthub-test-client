@@ -8,8 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A minimal Node.js OIDC client application used to test\r ConnectHub Lightweight Identity Federation Layer.",
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "axios": "^1.19.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "jose": "^6.2.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooja2apr/connecthub-test-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pooja2apr/connecthub-test-client/issues"
+  },
+  "homepage": "https://github.com/pooja2apr/connecthub-test-client#readme"
 }
